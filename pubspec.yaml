@@ -1,0 +1,56 @@
+name: fino
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # external dependecies
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  flutter_svg: ^2.0.9
+  gap: ^3.0.1
+  bounce: ^1.1.0
+  shared_preferences: ^2.2.2
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/RalewayRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewaySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RalewayBlack.ttf
+          weight: 900
+
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib\core\utils\
+  filename: assets.dart
+  field_prefix: ""
