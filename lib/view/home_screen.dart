@@ -1,8 +1,6 @@
 import 'package:fino/core/assets.dart';
 import 'package:fino/export.dart';
-import 'package:flutter/material.dart';
-import '../core/colors.dart';
-
+// homeview 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -22,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
             end: Alignment.bottomLeft,
             colors: [
               AppColors.primary,
-              AppColors.background,
+              AppColors.secondary,
               AppColors.background,
             ],
             stops: const [0.0, 0.2, 2.0],

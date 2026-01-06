@@ -8,7 +8,7 @@ class AppTheme {
       primaryColor: AppColors.primary,
       colorScheme: const ColorScheme.light(
         primary: AppColors.primary,
-        secondary: AppColors.primaryLight,
+        secondary: AppColors.secondary,
         surface: Colors.white,
         background: Colors.white,
         error: AppColors.error,
@@ -43,7 +43,7 @@ class AppTheme {
       primaryColor: AppColors.primary,
       colorScheme: const ColorScheme.dark(
         primary: AppColors.primary,
-        secondary: AppColors.accent,
+        secondary: AppColors.secondary,
         surface: AppColors.surface,
         background: AppColors.background,
         error: AppColors.error,
