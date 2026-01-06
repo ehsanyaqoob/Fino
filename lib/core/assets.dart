@@ -8,6 +8,7 @@ class Assets {
   static const String fontsRalewayRegular = 'assets/fonts/RalewayRegular.ttf';
   static const String fontsRalewaySemiBold = 'assets/fonts/RalewaySemiBold.ttf';
 
+  static const String analytics = 'assets/images/analytics.svg';
   // app svg icons
   static const String padel = 'assets/images/padel.svg';
   static const String sync = 'assets/images/sync.svg';
